@@ -34,4 +34,35 @@ public class Proveedor extends Usuario{
 
    }
 
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public char getEmpresa() {
+        return empresa;
+    }
+
+    public long getNit() {
+        return nit;
+    }
+
+    public int getPlazoEntrega() {
+        return plazoEntrega;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
+    public void setEmpresa(char empresa) {
+        this.empresa = empresa;
+    }
+
+    public void setNit(long nit) {
+        this.nit = nit;
+    }
+
+    public void setPlazoEntrega(int plazoEntrega) {
+        this.plazoEntrega = plazoEntrega;
+    }
 }
