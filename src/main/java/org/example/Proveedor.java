@@ -65,4 +65,11 @@ public class Proveedor extends Usuario{
     public void setPlazoEntrega(int plazoEntrega) {
         this.plazoEntrega = plazoEntrega;
     }
+
+    @Override
+
+    public String toString(){
+        return "Usuario [nombre=" + nombreUsuario + ", id=" + id
+                + ", empresa=" + empresa + ", nit=" + nit + ", plazoEntrega=" + plazoEntrega + "]";
+    }
 }
