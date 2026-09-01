@@ -16,8 +16,8 @@ public class Comprador extends Usuario{
 
     }
 
-    public Comprador(String nombreUsuario, int id, long tel, String contrasena, char metodoPago, int comprasRealizadas, double presupuesto){
-        super(nombreUsuario, id, tel);
+    public Comprador(String nombreUsuario, int id, long telefono, String contrasena, char metodoPago, int comprasRealizadas, double presupuesto){
+        super(nombreUsuario, id, telefono);
         this.contrasena = contrasena;
         this.metodoPago = metodoPago;
         this.comprasRealizadas = comprasRealizadas;
@@ -30,7 +30,7 @@ public class Comprador extends Usuario{
         this.metodoPago = metodoPago;
         this.comprasRealizadas = 0;
         this.presupuesto = 0.0;
-        this.contrasena = "Default";
+        this.contrasena = "default";
 
     }
 
