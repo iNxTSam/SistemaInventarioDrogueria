@@ -34,5 +34,42 @@ public class Comprador extends Usuario{
 
     }
 
+    public String getContrasena() {
+        return contrasena;
+    }
 
+    public char getMetodoPago() {
+        return metodoPago;
+    }
+
+    public int getComprasRealizadas() {
+        return comprasRealizadas;
+    }
+
+    public double getPresupuesto() {
+        return presupuesto;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
+    public void setMetodoPago(char metodoPago) {
+        this.metodoPago = metodoPago;
+    }
+
+    public void setComprasRealizadas(int comprasRealizadas) {
+        this.comprasRealizadas = comprasRealizadas;
+    }
+
+    public void setPresupuesto(double presupuesto) {
+        this.presupuesto = presupuesto;
+    }
+
+    @Override
+
+    public String toString(){
+        return "Usuario [nombre=" + nombreUsuario + ", id=" + id
+                + ", metodoPago=" + metodoPago + ", comprasRealizadas=" + comprasRealizadas + ", presupuesto=" + presupuesto + "]";
+    }
 }
